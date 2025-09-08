@@ -2,6 +2,6 @@ if (process.argv.length < 3) {
   console.log("No argument");
 }
 
-if (process.argv.length >= 3) {
-  console.log("Arguments found");
-}
+process.argv.length === 3
+  ? console.log("Argument found")
+  : console.log("Arguments found");
