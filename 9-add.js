@@ -4,7 +4,6 @@ const secondNum = parseInt(process.argv[3]);
 function add(a, b) {
   const sum = a + b;
   console.log(sum);
-  //   return ;
 }
 
 add(firstNum, secondNum);
